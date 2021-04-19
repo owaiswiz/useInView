@@ -1,6 +1,6 @@
 {
-	"name": "use-in-view",
-	"version": "1.0.14",
+	"name": "@owaiswiz/use-in-view",
+	"version": "1.0.15",
 	"description": "",
 	"license": "MIT",
 	"main": "./dist/index.js",
@@ -33,12 +33,12 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/elinadenfina/useInView.git"
+		"url": "https://github.com/owaiswiz/useInView.git"
 	},
 	"bugs": {
-		"url": "https://github.com/elinadenfina/useInView/issues"
+		"url": "https://github.com/owaiswiz/useInView/issues"
 	},
-	"homepage": "https://github.com/elinadenfina/useInView",
+	"homepage": "https://github.com/owaiswiz/useInView",
 	"dependencies": {
 		"lodash.throttle": "^4.1.1",
 		"react": "^17.0.2"
