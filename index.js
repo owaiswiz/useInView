@@ -2,7 +2,7 @@
 import {useEffect, useState} from 'react';
 import throttle from 'lodash.throttle';
 
-module.exports = (offset = 0) => {
+const useInView = (offset = 0) => {
 	const [ref, setRef] = useState(null);
 	const [inView, setInView] = useState(false);
 	useEffect(() => {
@@ -17,7 +17,7 @@ module.exports = (offset = 0) => {
 
 		if (!ref) {
 			return;
-		} 
+		}
 
 		const handleScroll = throttle(() => {
 			if (!ref) {
@@ -37,3 +37,5 @@ module.exports = (offset = 0) => {
 
 	return [setRef, inView];
 };
+
+export default useInView;
